@@ -1,0 +1,20 @@
+<div class="container">
+    <h1 class="title">{{name}}</h1>
+    <div class="about-flex">
+        <div>
+            <p class="description">Capital: <span>{{capital}}</span></p>
+            <br>
+            <p class="description">Population: <span>{{area}}</span></p>
+            <br>
+            <p class="description">Languages:
+            <br>
+            <ul>
+                {{#each languages}}
+                <li>{{name}}</li>
+                {{/each}}
+            </ul>
+            </p>
+        </div>
+        <img src="{{flag}}" alt="{{name}}">
+    </div>
+</div>

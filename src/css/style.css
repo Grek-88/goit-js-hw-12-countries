@@ -1,0 +1,45 @@
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.description {
+  font-weight: bold;
+}
+
+span {
+  font-weight: 400;
+}
+
+img {
+  display: block;
+  border: 1px solid #000;
+  width: auto;
+  height: 250px;
+  margin-left: 100px;
+}
+
+.about-flex {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: rgba(168, 182, 202, 0.582);
+}
